@@ -21,7 +21,7 @@ function Item({ url, setOpen, setModalData }) {
   return (
     <div
       className="
-    
+    transition-all duration-300 ease-in-out
      bg-pr-morty
      dark:bg-pr-rick"
     >
@@ -39,10 +39,11 @@ function Item({ url, setOpen, setModalData }) {
       )}
 
       {!loading && data && (
-        <div className="relative">
+        <div className="relative ">
           {/* Contenedor del items__info */}
           <div
             className="items__info
+            
             flex flex-col justify-center items-center
             w-full 
             h-[380px] mt-32
@@ -51,6 +52,7 @@ function Item({ url, setOpen, setModalData }) {
             dark:bg-rd-rick-hov 
             gap-4 pt-24
             text-xl sm:text-2xl md:text-3xl lg:text-3xl
+            
           "
           >
             {/* Título */}

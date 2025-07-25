@@ -62,7 +62,7 @@ function App() {
 
     <div
       className="rm__container
-      transition-colors ease-in-out delay-75
+      transition-all duration-300 ease-in-out
      bg-pr-morty text-th-morty 
      dark:bg-pr-rick dark:text-th-rick
       md:text-3xl   lg:text-4xl  sm::text-2xl text-2xl
