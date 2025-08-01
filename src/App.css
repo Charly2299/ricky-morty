@@ -206,4 +206,9 @@ bottom: -5px;
   background-color: #6b7280; /* Gris para desconocido */
 }
 
+html, body {
+  overflow-x: hidden; /* Ocultar scroll horizontal */
+  max-width: 100%;
+}
+
 
